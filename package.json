@@ -1,7 +1,17 @@
 {
+  "name": "expense-tracker-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
+    "@google/genai": "^2.0.1",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoose": "^9.3.3"
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
+    "multer": "^2.1.1"
   }
 }
